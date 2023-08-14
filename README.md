@@ -2,8 +2,7 @@
 
 Welcome to the Perles GitHub repository!
 
-![Imange ](./screenshots/SC.png)
-
+![Perles Website Preview Screen Shots](https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/tree/master/screenshots)
 
 ## Overview
 
@@ -53,7 +52,7 @@ The use of images and brand references is solely for artistic representation and
 
 ## License
 
-This project is licensed under the [MIT License](link-to-license).
+This project is licensed under the [MIT License](https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/LICENSE).
 
 Indulge in the world of Perles, where sophistication meets imagination.
 
