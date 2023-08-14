@@ -2,7 +2,7 @@
 
 Welcome to the Perles GitHub repository!
 
-![Perles Website Preview Screen Shots](https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/tree/master/screenshots)
+![Perles Preview](https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/tree/master/screenshots)
 
 ## Overview
 
