@@ -1,0 +1,113 @@
+#picbox1{
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(239, 239, 239, 0.248);
+    margin-bottom: 25vh;
+}
+.write h1, #picbox2 h1{
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.picture img{
+    width: 30vw;
+}
+.write{
+    max-width: 50vw;
+}
+
+#buybox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 25vh;
+}
+.bb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh 2vh;
+    width:300px;
+}
+.bb img{
+    height:50vh ;
+    transition: .35s ease-in-out;
+}
+.bb-inner{
+    display: none;
+    transition: .35s ease-in-out;
+}
+.bb h1{
+    color: #87544e;
+}
+.bb:hover .bb-inner{
+    margin-top: 30px;
+    display: block;
+}
+.bb:hover img{
+    height: 45vh;
+}
+.bb a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+.bb:hover a{ 
+    transition: .35s ease-in-out;
+    border-radius: 40px;
+}
+.bb a:hover{
+    background-color:  #87544ed5; ;
+    color: white;
+}
+
+#picbox2{
+    padding: 10vh 10vh;
+    margin-bottom: 20vh;
+}
+
+#picbox3 img{
+    width: 100%;
+    margin-bottom: 20vh;
+}
+@media screen and (max-width:950px){
+    .bb img{
+        height: 43vh;
+    }
+    .bb:hover img{
+        height: 40vh;
+    }
+}
+@media screen and (max-width:750px){
+
+    .picture img{
+        width: 40vw;
+    }
+    .bb img{
+        height: 35vh;
+    }
+    .bb:hover img{
+        height: 32vh;
+    }
+}
+@media screen and (max-width:500px){
+    #picbox1,#picbox2,#picbox3 img,#buybox{
+        margin-bottom: 10vh;
+    }
+    .write{
+        max-width: 100%;
+        margin: 10vh 10px;
+    }
+    .picture img{
+        width: 100vw;
+    }
+    #picbox1{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:380px){
+    #picbox2{
+        padding: 8vh 25px;
+    }
+}

@@ -1,0 +1,137 @@
+doctype html
+html
+  head
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300&display=swap" rel="stylesheet">
+    title perles Official Website | One of a kind
+    link(rel="icon", type="image/x-icon", href="/static/pics/logo/vector/default.svg")
+    block scripts
+    script 
+      include ../static/scripts/script.js
+    block style  
+    style
+      include ../static/css/base.css  
+  body
+    nav#navbar
+      #navItems
+        ul 
+          li#drop2 #[a(href='/menfrag') Perfumes]
+            .mega-box               
+              .row                    
+                 ul
+                     li.hm #[a(href='/menfrag') Men's Fragrances]
+                     li.hm #[a(href='/womenfrag') Women's Fragrances]
+              .image1
+                 img(src="/static/pics/perfume.jpg", alt="")       
+          li#drop1 #[a(href='/bags') Fashion]
+            .mega-box
+              .row
+                 ul
+                     li.hm Men
+                     li #[a(href='/wallet') Wallets]
+                     li #[a(href='/menwatch') Watches]
+                     li #[a(href='/menshoe') Shoes] 
+              .row  
+                 ul
+                     li.hm Women 
+                     li #[a(href='/purse') Purses]
+                     li #[a(href='/womenwatch') Watches]
+                     li #[a(href='/womenshoe') Shoes]
+                     li #[a(href='/rings') Rings] 
+              .row 
+                 ul
+                     li.hm #[a(href='/bags') Bags] 
+              .image2
+                 img(src="/static/pics/fashion.jpg", alt="")  
+      #logo
+        a(href="/")
+          img(src="/static/pics/logo/vector/default.svg", alt="", <)
+      #findUs 
+        ul
+          li #[a(href='/contact') Contact]
+          li #[a(href='/boutique') Our Boutique]  
+    .page   
+      #nav-container
+        #logo2
+          a(href="/")
+            img(src="/static/pics/logo/vector/default.svg", alt="", <)  
+        .bg
+        .button(tabindex="0")
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        #nav-content(tabindex="0")
+          ul 
+             li.hm #[a(href='/') perles]
+             li.hm Perfumes
+             li #[a(href='/menfrag') Men's Fragrances]
+             li #[a(href='/womenfrag') Women's Fragrances] 
+             li.hm Men
+             li #[a(href='/wallet') Wallets]
+             li #[a(href='/menwatch') Watches]
+             li #[a(href='/menshoe') Shoes]
+             li.hm Women 
+             li #[a(href='/purse') Purses]
+             li #[a(href='/womenwatch') Watches]
+             li #[a(href='/womenshoe') Shoes]
+             li #[a(href='/rings') Rings] 
+             li.hm #[a(href='/bags') Bags] 
+             li.small
+               a(href="/contact") Contact Us
+               a(href="/boutique") Our Boutique     
+    block content
+    
+    block foot
+     footer#foot
+       .top 
+         h2 About Us
+         p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat possimus, at molestiae unde obcaecati, natus quae architecto voluptate facere ullam dolore eos. Repudiandae, dolorum! Voluptatibus quos excepturi labore doloremque dicta distinctio vel, autem est. At culpa reprehenderit ad adipisci expedita suscipit dolorum beatae optio, neque aspernatur eum dicta nam sunt.
+       .mid
+         .l1 
+           h2 Support
+           ul
+             li #[a(href='/') FAQs]
+             li #[a(href='/') Returns & Exchanges]
+             li #[a(href='/') Shipping & Delivery]
+             li #[a(href='/') Ordering & Payment]
+             li #[a(href='/contact') Contact Us]
+             li #[a(href='/') Store Locator]
+             li #[a(href='/') Order Tracker]
+             li #[a(href='/') Gift Cards]
+             li #[a(href='/') Affiliate Program]
+   
+         .l2 
+           h2 Company Info
+           ul
+             li #[a(href='/') Blogs]
+             li #[a(href='/') Careers]
+             li #[a(href='/') Discount Programs]
+             li #[a(href='/') Human Rights Award]
+             li #[a(href='/') Supply Chains]
+             li #[a(href='/boutique') Our Boutique]
+             li #[a(href='/') Transparency Policy]
+             
+         .eml
+           form(action="/contact", method='post', onsubmit="show_alert2()")
+             input(type="email", class='inputs', name='Email', placeholder='Your Email',pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$") 
+             button Submit 
+       .last
+         .links
+           a(href="https://www.facebook.com", target="_blank")
+             img(src="/static/pics/footer/fb.svg", alt="", <) 
+           a(href="https://www.instagram.com", target="_blank")
+             img(src="/static/pics/footer/insta.svg", alt="", <) 
+           a(href="https://www.threads.net/", target="_blank")
+             img(src="/static/pics/footer/threads.svg", alt="", <) 
+           a(href="https://twitter.com", target="_blank")
+             img(src="/static/pics/footer/x.svg", alt="", <) 
+         .d1    
+           a(href="/") Info
+           a(href="/") Support
+           a(href="/") Marketing
+         .d2    
+           a(href="/") Terms of Use
+           a(href="/") Privacy Policy
+         .cr
+           p Copyright &copy 2023 perles. All rights reserved

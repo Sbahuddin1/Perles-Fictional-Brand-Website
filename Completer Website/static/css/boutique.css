@@ -1,0 +1,105 @@
+.start-txt{
+    position: absolute;
+    top: 370px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: black;
+    opacity: .5;
+}
+.start-txt h1, .start-txt p{
+    font-size: 2rem;
+}
+#start{
+    background-image: url(/static/pics/botiq/start.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+}
+#mapbox{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#mapbox, #search{
+    margin: 10vh 0vh;
+}
+.inner2{
+    padding: 0vh 5vh;
+    width: 60vb;
+}
+.inner2 h1{
+    font-size: 1.5rem;
+    margin-bottom: 2vh;
+}
+.map{
+    margin: 5vh 5vh;
+    max-width:70vw;    
+    max-height: 60vh;
+}
+#boutiques{
+    background-color: rgba(239, 239, 239, 0.248);
+    padding: 5vh;
+}
+.boutique{
+    padding: 5vh;
+    background-color: white;
+    margin: 5vh 0px;
+    display: flex;
+    align-items: center;
+}
+.boutique img{
+    width: 60vb;
+}
+.notshow{
+    display: none;
+    visibility: hidden;
+}
+.inner{
+    width: 100vb;
+    margin-left: 5vh;
+}
+#search{
+    text-align: center;
+    margin-top: 5vh;
+    display: block;
+    background-color: rgba(239, 239, 239, 0.248);
+    padding-top: 10vh;
+    margin-bottom: 0px;
+}
+#searchbar{
+    background:transparent;
+    width: 50%;
+}
+@media screen and (max-width:750px){
+    .boutique img{
+        width: 40vw ;
+    }
+    #mapbox{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:600px){
+    .boutique{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .boutique img{
+        width: 70vw ;
+    }
+    .inner{
+        margin-top: 4vh;
+    }  
+
+}
+@media screen and (max-width:350px){
+        .inner{
+            margin-left: 0;
+        }
+}
+
+

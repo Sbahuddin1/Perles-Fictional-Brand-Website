@@ -1,0 +1,89 @@
+extends base.pug
+
+block scripts
+block style
+ style
+      include ../static/css/home.css
+
+block content
+   .txt-vid 
+     h1.txt ONE OF <br> A <br> KIND
+     p.txt PERLES <br> SINCE 1856
+     
+   section.vid
+         video#video(autoplay, loop, muted, poster="#")
+             source(src="/static/pics/home/home.mp4", type="video/mp4")
+         video#video2(autoplay, loop, muted, poster="#")
+             source(src="/static/pics/home/home2.mp4", type="video/mp4") 
+   section#intro
+     #a1
+         h1.bigH The perfect experience <br>being one of a kind!
+         p Lorem ipsum dolor sit amet consectetur adipisicing elit. A recusandae tenetur autem. Reiciendis id incidunt libero explicabo earum nobis blanditiis.
+         a.a1(href="/boutique") Shop Now >
+     #a2
+         img(src="/static/pics/home/main.jpg", alt="")
+     #a3
+         img(src="/static/pics/home/main2.jpg", alt="")     
+
+   section.box1
+     .ring 
+         h1.bigH Experience being one of a kind
+         p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse libero dolorum, nam sequi quae corrupti temporibus atque eligendi voluptas adipisci quos aliquid iure.
+         a.a2(href="/rings") Discover Now >          
+
+   section#buybig
+     h1.bigH Stories
+     #buy
+         .b1
+             img(src="/static/pics/home/buy.jpg", alt="")
+             h1 How we make things one of a kind 
+             p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur.
+             a.a1(href="/rings") Discover Now >
+         .b1
+             img(src="/static/pics/home/buy1.jpg", alt="")
+             h1 Our designer shoe collection
+             p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, totam.
+             a.a1(href="/menshoe") View Collection >
+         .b1
+             img(src="/static/pics/home/buy2.jpg", alt="")
+             h1 Purses that are handstiched with love
+             p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio amet distinctio autem a!
+             a.a1(href="/purse") Discover Now >
+
+
+   section.box2 
+     .watch 
+         h1.bigH A premium collection of formal watches
+         p Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aut, veniam fugiat iusto expedita repudiandae, in voluptatibus dolorum quaerat maiores, tenetur dolore voluptates ut eos ratione eum sint hic sunt.
+         a.a2(href="/menwatch") View Collection >
+
+   section.final 
+     h1.bigH The Perles Experience
+     .end 
+         .b2
+             img(src="/static/pics/home/shop.svg", alt="")
+             h1 Our boutique near you
+             p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio amet distinctio.
+             a.a1(href="/boutique") Find Us >      
+         .b2
+              img(src="/static/pics/home/bell.svg ", alt="")
+              h1 Ring your bell
+              p Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              a.a1(href="/boutique") Discover Now >      
+         .b2
+             img(src="/static/pics/home/contact.svg", alt="")
+             h1 Perles at your servise
+             p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio amet distinctio autem.
+             a.a1(href="/contact") Contact Us >      
+         .b2
+             img(src="/static/pics/home/find.svg", alt="")
+             h1 Help us find you
+             p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio amet distinctio     au.
+             a.a1(href="/contact") Fill the form >                    
+          
+    
+
+
+
+
+         

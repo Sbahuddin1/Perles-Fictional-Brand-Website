@@ -1,0 +1,108 @@
+#s1{
+    margin-top: 5vh;
+    display: flex;
+    background-color: rgba(239, 239, 239, 0.248);
+    margin-bottom: 20vh;
+    align-items: center;
+}
+.s1 img{
+    width: 50vw;
+}
+.s2 h1{
+    font-size: 1.5rem;
+}
+.s2{
+    padding: 10vh 15vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#form{
+    padding: 50px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 10px rgba(110, 110, 110, 0.096);
+    margin-bottom: 20vh;
+}
+/* CONTACT FORM */      
+#form h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding: 20px;
+}
+#form p{
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    padding: 20px;
+}
+.fm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ip{
+    margin: 3vh 4vh;
+    display: block;
+    width: 30vw;
+}
+.ip3{
+    margin-top: 50px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.ip2{
+    margin: 3vh 4vh;
+    padding: 1rem;
+    outline: none;
+    width: 100vw;
+}
+@media screen and (max-width:1035px){
+    .ip{
+        width: 25vw ;
+    }
+
+}
+@media screen and (max-width:1035px){
+    .ip{
+        width: 80vw ;
+    }
+
+}
+@media screen and (max-width:800px){
+        #s1{
+            flex-wrap: wrap;
+        }
+        .s1 img{
+            width: 100%;
+        }
+}
+@media screen and (max-width:500px){
+    #form{
+        padding: 50px 0px;
+    }
+    .ip2{
+        margin: 3vh 4px ;
+        width: 75vw;
+    }
+
+}
+@media screen and (max-width:360px){
+    .ip,.ip2{
+        font-size: 1rem;
+    }
+    .ip{
+        width: 60vw;
+    }
+    .s2{
+        padding: 10vh 1vh;
+    }
+
+}
+

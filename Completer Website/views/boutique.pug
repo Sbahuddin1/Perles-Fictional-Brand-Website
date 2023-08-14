@@ -1,0 +1,81 @@
+extends base.pug
+
+block scripts 
+   script 
+      include ../static/scripts/script.js
+block style 
+  style 
+     include ../static/css/boutique.css
+block content
+    .start-txt    
+       p PERLES <br> SINCE 1856
+
+    section#start
+
+    section#search    
+     input#searchbar(onkeyup="search_boutique()", type="text", name="search", placeholder="Search Boutiques near you")
+    
+    section#boutiques
+      .boutique
+        img(src="/static/pics/botiq/paris.jpg", alt="")
+        .inner 
+          h1 Saint-Denis, Paris, France
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta atque incidunt eligendi dolore eum ab earum at suscipit voluptatem mollitia temporibus similique, dignissimos architecto sunt, nulla nemo, quia harum totam.
+      .boutique
+        img(src="/static/pics/botiq/dubai.jpg", alt="")
+        .inner 
+          h1 Jumeirah St, Dubai, UAE
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta atque incidunt eligendi dolore eum ab earum at suscipit voluptatem mollitia temporibus similique, dignissimos architecto sunt, nulla nemo, quia harum totam.
+      .boutique
+        img(src="/static/pics/botiq/toronto.jpg", alt="")
+        .inner 
+          h1 East York, Toronto, Ontario, Canada
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta atque incidunt eligendi dolore eum ab earum at suscipit voluptatem mollitia temporibus similique, dignissimos architecto sunt, nulla nemo, quia harum totam.
+      .boutique
+        img(src="/static/pics/botiq/vegas.jpg", alt="")
+        .inner 
+          h1 Paradise, Las Vegsa, Nevada, USA
+          p.notshow america
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta atque incidunt eligendi dolore eum ab earum at suscipit voluptatem mollitia temporibus similique, dignissimos architecto sunt, nulla nemo, quia harum totam.
+      .boutique
+        img(src="/static/pics/botiq/london.jpg", alt="")
+        .inner 
+          h1 Brixton, London, England, UK
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta atque incidunt eligendi dolore eum ab earum at suscipit voluptatem mollitia temporibus similique, dignissimos architecto sunt, nulla nemo, quia harum totam.
+      .boutique
+        img(src="/static/pics/botiq/venice.jpg", alt="")
+        .inner 
+          h1 Cannarigio, Venice, Italy
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta atque incidunt eligendi dolore eum ab earum at suscipit voluptatem mollitia temporibus similique, dignissimos architecto sunt, nulla nemo, quia harum totam.
+      .boutique
+        img(src="/static/pics/botiq/ny.jpg", alt="")
+        .inner 
+          h1 Morristown, New York , USA
+          p.notshow america
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta atque incidunt eligendi dolore eum ab earum at suscipit voluptatem mollitia temporibus similique, dignissimos architecto sunt, nulla nemo, quia harum totam.
+      .boutique
+        img(src="/static/pics/botiq/madrid.jpg", alt="")
+        .inner 
+          h1 Salamanca, Madrid, Spain
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta atque incidunt eligendi dolore eum ab earum at suscipit voluptatem mollitia temporibus similique, dignissimos architecto sunt, nulla nemo, quia harum totam.
+      .boutique
+        img(src="/static/pics/botiq/birm.jpg", alt="")
+        .inner 
+          h1 Smethwick, Birmingham, England, UK
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta atque incidunt eligendi dolore eum ab earum at suscipit voluptatem mollitia temporibus similique, dignissimos architecto sunt, nulla nemo, quia harum totam.
+    
+    section#mapbox 
+        .inner2
+          h1 We are all around<br> the Globe!
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit illum facere eos animi totam numquam inventore voluptate id odit fugit.
+        iframe.map(src="https://www.google.com/maps/d/embed?mid=11sHmyrLrFGUcvKBfLKs0PAYuM7IPGoE&ehbc=2E312F", width="640", height="480")
+
+      
+      
+      
+      
+      
+      
+      
+      
+      

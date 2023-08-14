@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts 
+  script 
+    include ../static/scripts/script.js 
+block style 
+   style 
+     include ../static/css/contact.css  
+block content
+    section#s1
+      .s1  
+         img(src="/static/pics/contact.jpg", alt="")
+      .s2 
+        h1 Perles at your service
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt omnis laborum voluptates dolorem officia accusantium voluptate laudantium laboriosam molestiae deserunt.
+
+    section#form
+        h1 Contact Us
+        p This information will help us reach out to you. None of this information will be provided to third parties.    
+
+        form.fm(action="/contact", method='post', onsubmit="show_alert() ")
+            input.ip(type="text", class='inputs', name='first-name', placeholder='First Name')
+
+            input.ip(type="text", class='inputs', name='last-name', placeholder='Last Name (optional)')
+
+            input.ip(type="email", class='inputs', name='Email', placeholder='Your Email', pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$")
+
+            input.ip#phone(type="text", class='inputs', name='Phone', placeholder='Your Phone Number',, pattern="[0-9]")
+
+            select.ip.ip3(name="country")
+              option(value="france") France
+              option(value="usa") USA
+              option(value="uk") UK
+              option(value="spain") Spain
+              option(value="uae") UAE
+              option(value="canada") Canada
+              option(value="italy") Italy
+
+            input.ip2(type="text", class='inputs', name='Subject', placeholder='Your Inquery')
+
+            textarea.ip2(placeholder="You can tell us specific details of the product",name="Message", cols="30", rows="12")
+            
+            button.btn Submit    
