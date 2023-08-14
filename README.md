@@ -2,7 +2,8 @@
 
 Welcome to the Perles GitHub repository!
 
-![Perles Preview](link-to-preview-image)
+![Imange ](./screenshots/SC.png)
+
 
 ## Overview
 
