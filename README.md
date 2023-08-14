@@ -55,5 +55,3 @@ The use of images and brand references is solely for artistic representation and
 This project is licensed under the [MIT License](https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/LICENSE).
 
 Indulge in the world of Perles, where sophistication meets imagination.
-
-
