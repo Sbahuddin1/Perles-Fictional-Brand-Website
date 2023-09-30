@@ -34,6 +34,9 @@ Perles is an imaginative project that brings the world of luxury brands to life.
 
 The website is built using Pug (formerly known as Jade) templates for a streamlined HTML generation process. The backend is powered by Node.js, with MongoDB used to store contact data submitted through the **Contact Us** page. This combination ensures a seamless user experience and data management.
 
+   <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(55).png" alt="Website Screenshot" width="100%">
+   
+
 ## Getting Started
 
 1. Clone this repository: `git clone (url of repository)`
@@ -41,6 +44,35 @@ The website is built using Pug (formerly known as Jade) templates for a streamli
 3. Set up MongoDB and configure the connection.
 4. Run the application: `node app.js`
 5. Open the browser and navigate to `http://localhost:` to explore Perles.
+
+## Screenshots
+
+ <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(99).png" alt="Website Screenshot" width="100%">
+
+
+  <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(100).png" alt="Website Screenshot" width="100%">
+
+
+    <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(75).png" alt="Website Screenshot" width="100%">
+
+
+     <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(68).png" alt="Website Screenshot" width="100%">
+
+
+      <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(102).png" alt="Website Screenshot" width="100%">
+
+
+       <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(98).png" alt="Website Screenshot" width="100%">
+
+
+        <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(108).png" alt="Website Screenshot" width="100%">
+
+
+        <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(92).png" alt="Website Screenshot" width="100%">
+
+
+         <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(94).png" alt="Website Screenshot" width="100%">
+        
 
 ## Contributions
 
