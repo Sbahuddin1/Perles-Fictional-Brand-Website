@@ -3,7 +3,7 @@
 Welcome to the Perles GitHub repository!
 
 
- <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(55).png" alt="Website Screenshot" width="80%">
+ <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(55).png" alt="Website Screenshot" width="100%">
 
 ## Overview
 
@@ -34,7 +34,7 @@ Perles is an imaginative project that brings the world of luxury brands to life.
 
 The website is built using Pug (formerly known as Jade) templates for a streamlined HTML generation process. The backend is powered by Node.js, with MongoDB used to store contact data submitted through the **Contact Us** page. This combination ensures a seamless user experience and data management.
 
-   <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(86).png" alt="Website Screenshot" width="100%">
+   <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(86).png" alt="Website Screenshot" width="80%">
    
 
 ## Getting Started
