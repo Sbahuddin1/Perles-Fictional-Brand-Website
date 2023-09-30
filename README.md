@@ -3,7 +3,7 @@
 Welcome to the Perles GitHub repository!
 
 
- <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(55).png" alt="Website Screenshot" width="100%">
+ <img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(55).png" alt="Website Screenshot" width="80%">
 
 ## Overview
 
@@ -47,31 +47,31 @@ The website is built using Pug (formerly known as Jade) templates for a streamli
 
 ## Screenshots
 
-<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(99).png" alt="Website Screenshot" width="100%">
+<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(99).png" alt="Website Screenshot" width="70%">
 
 
-<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(100).png" alt="Website Screenshot" width="100%">
+<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(100).png" alt="Website Screenshot" width="70%">
 
 
-<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(75).png" alt="Website Screenshot" width="100%">
+<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(75).png" alt="Website Screenshot" width="70%">
 
 
-<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(68).png" alt="Website Screenshot" width="100%">
+<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(68).png" alt="Website Screenshot" width="70%">
 
 
-<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(102).png" alt="Website Screenshot" width="100%">
+<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(102).png" alt="Website Screenshot" width="70%">
 
 
-<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(98).png" alt="Website Screenshot" width="100%">
+<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(98).png" alt="Website Screenshot" width="70%">
 
 
-<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(108).png" alt="Website Screenshot" width="100%">
+<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(108).png" alt="Website Screenshot" width="70%">
 
 
-<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(92).png" alt="Website Screenshot" width="100%">
+<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(92).png" alt="Website Screenshot" width="70%">
 
 
-<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(94).png" alt="Website Screenshot" width="100%">
+<img src="https://github.com/Sbahuddin1/Perles-Fictional-Brand-Website/blob/master/screenshots/Screenshot%20(94).png" alt="Website Screenshot" width="70%">
         
 
 ## Contributions
